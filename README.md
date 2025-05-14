@@ -50,8 +50,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to access 
 
 ### Login Credentials
 
-- Email: admin@gmail.com
-- Password: 12345
+- Email: sami@gmail.com
+- Password: sami987123
 
 ## Technologies Used
 
