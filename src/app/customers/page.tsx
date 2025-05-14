@@ -87,7 +87,7 @@ const initialCustomers: Customer[] = [
 ];
 
 export default function CustomersPage() {
-  const [customers, setCustomers] = useState<Customer[]>(initialCustomers);
+  const [customers] = useState<Customer[]>(initialCustomers);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCustomer, setSelectedCustomer] = useState<Customer | null>(null);
   const [isViewingDetails, setIsViewingDetails] = useState(false);

@@ -99,7 +99,7 @@ const initialOrders: Order[] = [
 ];
 
 export default function OrdersPage() {
-  const [orders, setOrders] = useState<Order[]>(initialOrders);
+  const [orders] = useState<Order[]>(initialOrders);
   const [searchTerm, setSearchTerm] = useState("");
   const [statusFilter, setStatusFilter] = useState("");
   const [selectedOrder, setSelectedOrder] = useState<Order | null>(null);
