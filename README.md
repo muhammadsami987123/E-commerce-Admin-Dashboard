@@ -1,24 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UAE E-commerce Admin Dashboard
+
+A comprehensive admin dashboard for e-commerce business management built with Next.js and Tailwind CSS.
+
+## Features
+
+- **Authentication**: Secure login functionality
+- **Dashboard Overview**: Visual representation of business metrics
+- **Product Management**: Add, edit, and delete products
+- **Order Management**: View and filter orders with detailed views
+- **Customer Profiles**: Customer information with purchase history
+- **Responsive Design**: Optimized for mobile, tablet, and desktop
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 16.8.0 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Create a `.env.local` file in the root directory with the following variables:
+
+```
+NEXT_PUBLIC_DEFAULT_EMAIL=admin@gmail.com
+NEXT_PUBLIC_DEFAULT_PASSWORD=12345
+NEXT_PUBLIC_APP_NAME=UAE Admin Dashboard
+NEXT_PUBLIC_COMPANY_NAME=UAE E-commerce
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to access the dashboard.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Login Credentials
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Email: admin@gmail.com
+- Password: 12345
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+- Client-side state management
+
+## Project Structure
+
+- `app/` - Next.js app directory
+- `components/` - Reusable UI components
+- `public/` - Static assets
+- `styles/` - Global CSS and Tailwind configuration
 
 ## Learn More
 
